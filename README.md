@@ -30,38 +30,39 @@
 ## Project Structure
 
 ```
-DoorLocker/
-├── main.c      
-├── main.c                          
-├── DOOR_LOCKER.pdsprj              # ٍSimulation
-├── README.md                       
-├── application/                    # Application logic  
-│   ├── APP_Interface.h  
-│   └── APP_Program.c  
-├── HCL/                            # High-level component drivers  
-│   ├── KEYPAD/  
-│   │   ├── KEYPAD_Interface.h  
-│   │   └── KEYPAD_Program.c  
-│   ├── LCD/  
-│   │   ├── LCD_Interface.h  
-│   │   └── LCD_Program.c  
-│   ├── LED/  
-│   │   ├── LED_Interface.h  
-│   │   └── LED_Program.c  
-│   └── SERVO/  
-│       ├── SERVO_Interface.h  
-│       └── SERVO_Program.c  
-├── MCAL/                           # Low-level drivers  
-│   ├── DIO/  
-│   │   ├── DIO_Interface.h  
-│   │   ├── DIO_Program.c  
-│   │   └── DIO_Register.h  
-│   └── WAIT/  
-│       ├── WAIT.h  
-│       └── WAIT.c  
-├── lib/                            # Utility headers  
-│   ├── BIT_MATH.h  
-│   └── STD_TYPES.h 
+├── README.md     
+├── build/                    
+│   ├── DOOR_LOCKER.hex
+├── simulation/                    
+│   ├── DOOR_LOCKER.pdsprj          # Simluation
+├── layers/
+│   ├── application/                    # Application logic  
+│   │   ├── APP_Interface.h  
+│   │   └── APP_Program.c  
+│   ├── HCL/                            # High-level component drivers  
+│   │   ├── KEYPAD/  
+│   │   │   ├── KEYPAD_Interface.h  
+│   │   │   └── KEYPAD_Program.c  
+│   │   ├── LCD/  
+│   │   │   ├── LCD_Interface.h  
+│   │   │   └── LCD_Program.c  
+│   │   ├── LED/  
+│   │   │   ├── LED_Interface.h  
+│   │   │   └── LED_Program.c  
+│   │   └── SERVO/  
+│   │       ├── SERVO_Interface.h  
+│   │       └── SERVO_Program.c  
+│   ├── MCAL/                           # Low-level drivers  
+│   │   ├── DIO/  
+│   │   │   ├── DIO_Interface.h  
+│   │   │   ├── DIO_Program.c  
+│   │   │   └── DIO_Register.h  
+│   │   └── WAIT/  
+│   │       ├── WAIT.h  
+│   │       └── WAIT.c  
+│   └── lib/                            # Utility headers  
+│       ├── BIT_MATH.h  
+│       └── STD_TYPES.h 
 ```
 ## Tools Used
 
