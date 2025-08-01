@@ -99,7 +99,8 @@ A big thank you to **Dr. Abdallah Hassan** for his guidance and support througho
 ---
 📌 Created with ❤️ by Hussein Mohamed
 
-```
+---
+
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=husseinMohamed7.Layered-Architecture-Door-Locker" alt="Visitors Badge"/>
 </p>
